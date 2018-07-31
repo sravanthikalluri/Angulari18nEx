@@ -1,0 +1,61 @@
+{
+  "home":{
+    "customercare":"24/7 CUSTOMER SERVICE",
+    "hyphen":"-",
+    "telnum":"(800) 123-4567",
+    "wishlist":"Wishlist",
+    "myaccount":"My Account",
+    "eng":"English",
+    "tel":"Telugu",
+    "hin":"Hindi",
+    "usdol":"US Dollor",
+    "account":"Account",
+    "login":"Login",
+    "register":"Register",
+    "shoppingcart":"Shopping Cart",
+    "checkout":"Check Out",
+    "freeshipping":"Free shipping Worldwide",
+    "dailydeals":"Daily deals & Offers",
+    "search":"Search",
+    "registerDesc":"By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.",
+    "register":"Register",
+    "newcustomer":"NEW CUSTOMER",
+    "continue":"Continue",
+    "returnCust":"RETURNING CUSTOMER",
+    "memberCust":"I am a returning customer",
+    "email-address":"E-Mail Address",
+    "password":"Password",
+    "forgottenPassword":"Forgotten Password",
+    "registeraccount":"Register Account",
+    "loginpage":"Login Page",
+    "logintext":"If you already have an account with us, please login at the"
+  },
+    "formfields": {
+        "personalDetailsTxt":"Your Personal Details",
+        "fname":"First Name",
+        "lname":"Last Name",
+        "email":"E-mail",
+        "tel":"Telephone",
+        "Passwordtext":"Your Password",
+        "password":"Password",
+        "cnfmPass":"Password Confirm",
+        "newsletter":"Newsletter",
+        "subscribe":"Subscribe"
+    },
+    "confirmations":{
+        "yes":"Yes",
+        "no":"No",
+        "termspolicy":"I have read and agree to the Privacy Policy"
+    },
+    "productItems":{
+        "shoe":"Shoes",
+        "clothing":"Clothing",
+        "bags":"Bags & Handbags",
+        "accessories":"Accessories",
+        "watches":"Watches",
+        "womens":"Women’s",
+        "kids":"Kid’s",
+        "mens":"Men's"
+    }
+
+}

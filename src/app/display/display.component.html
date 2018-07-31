@@ -1,0 +1,109 @@
+<div class="page">
+    <header>
+        <div class="row">
+            <div class="cart-header">
+                <div class="general-menu">
+                    <div class="col-sm-6 col-xs-6 no-padd">
+                        <span>{{'home.customercare' | translate}} {{'home.hyphen' | translate}} {{'home.telnum' | translate}}</span>
+                    </div>
+                    <div class="col-sm-6 col-xs-6 no-padd">
+                        <a href="#" class="float-right marginleft-21 ">
+                            <i class="fa fa-heart"></i>
+                            <span>{{'home.wishlist' | translate}}</span>
+                        </a>
+                        <div class="dropdown float-right marginleft-21 ">
+                            <a  type="button" data-toggle="dropdown">
+                                <i class="fa fa-user"></i>
+                                <span>{{'home.myaccount' | translate}}</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a (click)="goToLoginPage()">{{ 'home.login'| translate}}</a></li>
+                                <li><a (click)="goToRegisterPage()">{{ 'home.register'| translate}}</a></li>
+                                <li><a href="#">{{'home.myaccount' | translate}}</a></li>
+                                <li><a href="#">{{'home.shoppingcart' | translate}}</a></li>
+                                <li><a (click)="goToCheckOut()">{{'home.checkout' | translate}}</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown float-right marginleft-21">
+                            <a  type="button" data-toggle="dropdown">
+                                <span>{{'home.eng' | translate}}</span>
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">{{ 'home.tel'| translate}}</a></li>
+                                <li><a href="#">{{ 'home.hin'| translate}}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stock-memu">
+            <div class="row">
+                <div class="general-menu">
+                    <h1 class="logo col-sm-3 col-xs-3 no-padd">
+                        <a href="https://livedemo00-opencart.template-help.com/opencart_61111_v2/index.php?route=common/home">
+                            <img src="https://livedemo00-opencart.template-help.com/opencart_61111_v2/image/cache/catalog/logo-270x44.png" title="StoreFlex" alt="StoreFlex" class="img-responsive">
+                        </a>
+                    </h1>
+                    <div id="search" class="search col-sm-5 col-xs-5 no-padd">
+                        <input type="text" name="search" value="" placeholder="{{'home.search'|translate}}">
+                        <button type="button" class="button-search"><span class="fa fa-search"></span></button>
+                    </div>
+                    <div class="content col-sm-4 col-xs-4 no-padd flex">
+                        <a class="header-btn fa fa-paper-plane">{{'home.freeshipping' | translate}}</a>
+                        <a class="header-btn fa fa-star">{{'home.dailydeals' | translate}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stock-memu no-margin">
+            <div class="row">
+                <div class="navigation">
+                    <div class="line-color">
+                        <span class="col-sm-1"></span>
+                        <span class="col-sm-2"></span>
+                        <span class="col-sm-2"></span>
+                        <span class="col-sm-2"></span>
+                        <span class="col-sm-2"></span>
+                        <span class="col-sm-2"></span>
+                        <span class="col-sm-1"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container ">
+            <div class="megamenu">
+                <ul class="sf-menu sf-js-enabled sf-arrows flex">
+                    <li>
+                        <a><span translate>{{'productItems.shoe'}}</span></a>
+                    </li>
+                    <li class="sf-with-mega sfHover">
+                        <a class="sf-with-ul"><span translate>{{'productItems.clothing'}}</span></a>
+                    </li>
+                    <li class="sf-with-mega sfHover">
+                        <a class="sf-with-ul"><span translate>{{'productItems.bags'}}</span></a>
+                    </li>
+                    <li class="sf-with-mega sfHover">
+                        <a class="sf-with-ul"><span translate>{{'productItems.accessories'}}</span></a>
+                    </li>
+                    <li class="sf-with-mega sfHover">
+                        <a class="sf-with-ul"><span translate>{{'productItems.watches'}}</span></a>
+                    </li>
+                    <li class="sf-with-mega sfHover">
+                        <a class="sf-with-ul"><span translate>{{'productItems.womens'}}</span></a>
+                    </li>
+                    <li class="sf-with-mega sfHover">
+                        <a class="sf-with-ul"><span translate>{{'productItems.mens'}}</span></a>
+                    </li>
+                    <li class="sf-with-mega sfHover">
+                        <a class="sf-with-ul"><span translate>{{'productItems.kids'}}</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="stock-memu margin-30">
+        <router-outlet></router-outlet>
+    </div>
+</div>
