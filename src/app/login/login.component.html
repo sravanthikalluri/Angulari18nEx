@@ -1,0 +1,45 @@
+<div class="row margin-75">
+    <div class="col-sm-12 col-xs-12">
+        <div class="col-sm-6 col-xs-6">
+            <div class="card">
+                <h2 translate>{{'home.newcustomer'}}</h2>
+                <p>
+                    <strong translate>{{'home.register'}}</strong>
+                </p>
+                <p translate>{{'home.registerDesc'}}</p>
+                <div>
+                    <button class="btn btn-primary btn-hover" (click)="goToRegisterPage()">{{'home.continue' | translate}}</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xs-6">
+            <div class="card">
+                <h2 translate>{{'home.returnCust'}}</h2>
+                <p>
+                    <strong translate>{{'home.memberCust'}}</strong>
+                </p>
+                <form [formGroup]="loginform">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">{{'home.email-address' | translate}}</label>
+                        <input type="email" class="form-control"
+                               id="exampleInputEmail1"
+                               formControlName="email"
+                               placeholder="{{'home.email-address' | translate}}">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">{{'home.password' | translate}}</label>
+                        <input type="password"
+                               class="form-control"
+                               id="exampleInputPassword1"
+                               formControlName="password"
+                               placeholder="{{'home.password' | translate}}">
+                    </div>
+
+                </form>
+                <div>
+                    <button class="btn btn-primary btn-hover" (click)="verifyLogin()">{{'home.login' | translate}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

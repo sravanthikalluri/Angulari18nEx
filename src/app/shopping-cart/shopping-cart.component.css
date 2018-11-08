@@ -1,0 +1,17 @@
+img {
+    height:100px;
+    width:100px;
+}
+.table-bordered>tbody>tr>td {
+    vertical-align: middle;
+    color: #7f8187;
+    font:15px/24px montserrat,sans-serif
+}
+.empty-cart p {
+    font-size:16px;
+    text-align: center;
+}
+.empty-cart {
+    height: auto;
+    margin: 100px 0px !important;
+}

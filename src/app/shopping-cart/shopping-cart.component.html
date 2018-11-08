@@ -1,0 +1,41 @@
+<div class="checkout-cart container">
+    <div class="row no-margin" *ngIf="cardItems.length > 0">
+        <h3> </h3>
+        <div class="cart-details table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th class="text-center">{{'home.image'  | translate | uppercase}}</th>
+                    <th class="text-left">{{'home.pname' | translate | uppercase}}</th>
+                    <th class="text-left">  {{'home.model' | translate | uppercase}}</th>
+                    <th class="text-left">{{'home.quantity' | translate |uppercase}}</th>
+                    <th class="text-right">{{'home.unitprice' | translate | uppercase}}</th>
+                    <th class="text-right">{{'home.total' | translate|uppercase}}</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let cart of cardItems">
+                        <td class="text-center">
+                            <img [src]="cart.path" />
+                        </td>
+                        <td>{{cart.name}}</td>
+                        <td>{{cart.model}}</td>
+                        <td>{{cart.quantity}}</td>
+                        <td class="text-right">{{cart.price | currency}}</td>
+                        <td class="text-right">{{cart.quantity * cart.price | currency}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="pull-right">
+            <button class="btn btn-primary" (click)="makePayment()" >Make Payment</button>
+        </div>
+    </div>
+    <div class="row no-margin text-center empty-cart" *ngIf="cardItems.length <= 0">
+        <p>
+            {{'home.noitems' | translate}}
+        </p>
+        <button class="btn btn-primary" (click)="backToHome()"> Shop Now</button>
+    </div>
+</div>
+

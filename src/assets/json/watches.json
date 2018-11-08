@@ -1,0 +1,43 @@
+[
+    {
+        "path": "assets/images/watches/product-1.png",
+        "name": "Gold-Tone Bracelet Watch",
+        "price": "100",
+        "model": "Collectible",
+        "pid": "w01"
+    },
+    {
+        "path": "assets/images/watches/product-5.png",
+        "name": "Galaxy Gear Smartwatch",
+        "price": "170",
+        "model": "Classic",
+        "pid": "w02"
+    },
+    {
+        "path": "assets/images/watches/product-6.png",
+        "name": "Gear 2 Smartwatch",
+        "price": "155",
+        "model": "Collectible",
+        "pid": "w03"
+    },
+    {
+        "path": "assets/images/watches/product-2.png",
+        "name": "Haute Joaillerie watch",
+        "price": "1200",
+        "model": "Premium",
+        "pid": "w04"
+    },
+    {
+        "path": "assets/images/watches/product-3.png",
+        "name": "High Jewelry watch",
+        "price": "860",
+        "model": "Classic",
+        "pid": "w05"
+    },
+    {
+        "path": "assets/images/watches/product-4.png",
+        "name": "Mechanical Automatic Watch",
+        "price": "120",
+        "model": "Premium",
+        "pid": "w06"
+    }]

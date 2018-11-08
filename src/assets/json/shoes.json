@@ -1,0 +1,43 @@
+[
+    {
+        "path": "assets/images/shoes/product-1.jpg",
+        "name": "Dance Urtempo",
+        "price": "50",
+        "model": "Collectible",
+        "pid": "s01"
+    },
+    {
+        "path": "assets/images/shoes/product-2.jpg",
+        "name": "Reebok Aspire",
+        "price": "70",
+        "model": "Classic",
+        "pid": "s02"
+    },
+    {
+        "path": "assets/images/shoes/product-3.jpg",
+        "name": "Reebok Aspire Green",
+        "price": "75",
+        "model": "Classic",
+        "pid": "s03"
+    },
+    {
+        "path": "assets/images/shoes/product-4.jpg",
+        "name": "Reebok BB7700 MID Graphic Pop",
+        "price": "55",
+        "model": "Deluxe",
+        "pid": "s04"
+    },
+    {
+        "path": "assets/images/shoes/product-5.jpg",
+        "name": "Reebok Classic Leather Split",
+        "price": "60",
+        "model": "Collectible",
+        "pid": "s05"
+    },
+    {
+        "path": "assets/images/shoes/product-6.jpg",
+        "name": "Reebok ONE Cushion 2.0",
+        "price": "50",
+        "model": "Deluxe",
+        "pid": "s06"
+    }]

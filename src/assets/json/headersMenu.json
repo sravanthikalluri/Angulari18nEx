@@ -1,0 +1,37 @@
+{
+    "beforeLogin":[
+        {
+            "name": "Login",
+            "route": "login"
+        },
+        {
+            "name": "Register",
+            "route": "register"
+        },
+        {
+            "name": "My Account",
+            "route": "myaccount"
+        },
+        {
+            "name": "Shopping Cart",
+            "route": "shoppingcart"
+        },{
+            "name": "Checkout",
+            "route": "checkout"
+        }],
+    "afterLogin":[
+        {
+            "name": "My Account",
+            "route": "myaccount"
+        },
+        {
+            "name": "Shopping Cart",
+            "route": "shoppingcart"
+        },{
+            "name": "Checkout",
+            "route": "checkout"
+        },{
+            "name": "Logout",
+            "route": "logout"
+        }]
+}

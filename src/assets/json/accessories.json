@@ -1,0 +1,55 @@
+[
+    {
+        "path": "assets/images/accessories/product-1.png",
+        "name": "Agrafe earrings",
+        "price": "1200",
+        "model": "Collectible",
+        "pid": "w01"
+    },
+    {
+        "path": "assets/images/accessories/product-2.png",
+        "name": "Alliance-Fame-Sunglasses",
+        "price": "80",
+        "model": "Classic",
+        "pid": "w02"
+    },
+    {
+        "path": "assets/images/accessories/product-3.png",
+        "name": "Amulette de Cartier long necklace",
+        "price": "35",
+        "model": "Collectible",
+        "pid": "w03"
+    },
+    {
+        "path": "assets/images/accessories/product-4.png",
+        "name": "Amulette de Cartier ring",
+        "price": "2500",
+        "model": "Premium",
+        "pid": "w04"
+    },
+    {
+        "path": "assets/images/accessories/product-5.png",
+        "name": "Baseball Cap Hat Hip-hop Fashion Sequins",
+        "price": "860",
+        "model": "Classic",
+        "pid": "w05"
+    },
+    {
+        "path": "assets/images/accessories/product-6.png",
+        "name": "American Cities Unisex USA Block Letters Long Knit Hat Cap Beanie",
+        "price": "1400",
+        "model": "Premium",
+        "pid": "w06"
+    },{
+        "path": "assets/images/accessories/product-7.png",
+        "name": "Amulette de Cartier necklace",
+        "price": "120",
+        "model": "Premium",
+        "pid": "w06"
+    },{
+        "path": "assets/images/accessories/product-8.png",
+        "name": "Cartier Fauna and Flora brooch ",
+        "price": "120",
+        "model": "Premium",
+        "pid": "w06"
+    }]

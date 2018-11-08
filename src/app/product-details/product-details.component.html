@@ -1,0 +1,17 @@
+
+<div class="row">
+    <div class="side-menu col-sm-3">
+    </div>
+    <div class="stock-memu col-sm-8">
+        <div class="row no-margin">
+            <div class="col-sm-4" *ngFor="let product of productDetails">
+                <div class="card image text-center">
+                    <img [src]="product.path"  class="cursor" width="50%" height="50%" (click)="showProduct(product)">
+                    <p>{{product.name}}</p>
+                    <p>{{product.price | currency }}</p>
+                    <button class="btn-primary ani" (click)="addToCart(product)">{{'home.addToCart'|translate}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

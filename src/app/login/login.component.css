@@ -1,0 +1,26 @@
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: 2px solid #f5f5f5;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 0;
+    box-shadow: none;
+}
+.card p {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 20px 0;
+}
+p strong {
+    color: #143546;
+}
+.card h2 {
+    font-size: 18px;
+    color: #222328;
+    font-weight: 700;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 400;
+}

@@ -1,0 +1,48 @@
+.product-title {
+    font-family: "Montserrat", sans-serif;
+    padding-top: 5px;
+    margin-bottom: 3px;
+}
+.product-session {
+    padding: 10px 0;
+    letter-spacing: .8px;
+}
+.list-unstyled {
+    margin: 0;
+    list-style-type: none;
+}
+ul.list-unstyled li + li {
+    margin-top: 10px;
+}
+.quantity input[name*="quantity"] {
+    height: 27px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+input[name*="quantity"] {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.price {
+    font-size: 18px;
+    color: #f6846a;
+    line-height: 22px
+}
+.ani {
+    background: #67b0d6;
+    padding: 7px 19px 8px;
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    text-shadow: none;
+    font-family: montserrat,sans-serif;
+    border-radius: 4px;
+    border: 3px solid #67b0d6;
+    outline: none;
+}
